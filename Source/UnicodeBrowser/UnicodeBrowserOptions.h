@@ -13,7 +13,7 @@ class UFont;
 struct FSlateFontInfo;
 class UDataAsset_FontTags;
 
-UCLASS(Config="Engine", DefaultConfig, meta = (DisplayName="Unicode Browser"))
+UCLASS(Config="Editor", DefaultConfig, meta = (DisplayName="Unicode Browser"))
 class UNICODEBROWSER_API UUnicodeBrowserOptions : public UDeveloperSettings
 {
 	GENERATED_BODY()
